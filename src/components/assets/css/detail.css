@@ -1,0 +1,327 @@
+.sub-product {
+    padding: 100px 0 10px 0;
+}
+
+.detail-info {
+    margin: 40px 0 80px 0;
+}
+
+.detail-gambar {
+    background-color: #39592A;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.detail-gambar img {
+    width: 100%;
+    height: 100%;
+}
+
+.detail {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.detail h4 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.detail span {
+    color: #39592A;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.detail-text-info {
+    color: #90A2B2;
+    font-size: 12px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+.uil-eye {
+    color: #39592A;
+    font-size: 16px;
+}
+
+.detail-price h4 {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.detail-price span {
+    font-size: 10px;
+    font-weight: 300;
+    color: #90A2B2;
+}
+
+.olshop p{
+    margin: 20px 0 10px 0;
+}
+
+.olshop a:nth-child(2):hover {
+    color: #dfffd1;
+}
+
+.shopee {
+    border-radius: 8px;
+    text-decoration: none;
+    width: 100%;
+    height: 50px;
+    background-color: #39592A;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tokopedia {
+    border-radius: 8px;
+    text-decoration: none;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #39592A;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #39592A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-info {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.contact-info p {
+    color: #5C7184;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.contact-info p:nth-child(4) {
+    color: #5C7184;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.contact-info a {
+    color: #5C7184;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    text-decoration: none;
+}
+
+.contact-info .uil {
+    font-size: 20px;
+    margin-right: 12px;
+}
+
+/* .contact-icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 36px;
+}
+
+.icon {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: #39592A;
+}
+
+.icon>.uil {
+    color: #FFFFFF;
+} */
+
+/* RESPONSIVE */
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .detail-info {
+        margin: 80px 0;
+    }
+
+    .detail {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 0 0 40px;
+    }
+    
+    .detail h4 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .detail span {
+        color: #39592A;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .detail-text-info {
+        color: #90A2B2;
+        font-size: 14px;
+        font-weight: 300;
+        margin: 20px 0;
+    }
+
+    .contact-info {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .uil-eye {
+        color: #39592A;
+        font-size: 18px;
+    }
+
+    .detail-price h4 {
+        font-size: 36px;
+        font-weight: 400;
+    }
+
+    .detail-price span {
+        font-size: 12px;
+        font-weight: 300;
+        color: #90A2B2;
+    }
+
+    .olshop p{
+        margin: 30px 0 10px 0;
+        font-size: 12px;
+    }
+
+    .olshop a:nth-child(2):hover {
+        color: #dfffd1;
+    }
+
+    /* CONTACT */
+
+    .contact-info p {
+        color: #5C7184;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .contact-info p:nth-child(4) {
+        color: #5C7184;
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 30px;
+    }
+
+    .contact-info a {
+        color: #5C7184;
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 16px;
+        text-decoration: none;
+    }
+
+    .contact-info .uil {
+        font-size: 20px;
+        margin-right: 12px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .detail h4 {
+        font-size: 36px;
+        font-weight: 600;
+    }
+
+    .detail span {
+        color: #39592A;
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    .detail-text-info {
+        color: #90A2B2;
+        font-size: 20px;
+        font-weight: 300;
+        margin: 40px 0;
+    }
+
+    .uil-eye {
+        color: #39592A;
+        font-size: 22px;
+    }
+
+    .detail-price h4 {
+        font-size: 48px;
+        font-weight: 400;
+    }
+
+    .detail-price span {
+        font-size: 16px;
+        font-weight: 300;
+        color: #90A2B2;
+    }
+
+    .olshop p{
+        margin: 60px 0 20px 0;
+    }
+
+    .olshop a:nth-child(2):hover {
+        color: #dfffd1;
+    }
+
+    /* CONTACT */
+
+    .contact-info {
+        margin-left: 110px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contact-info p {
+        color: #5C7184;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .contact-info p:nth-child(4) {
+        color: #5C7184;
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 30px;
+    }
+
+    .contact-info a {
+        color: #5C7184;
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 16px;
+        text-decoration: none;
+    }
+
+    .contact-info .uil {
+        font-size: 20px;
+        margin-right: 12px;
+    }
+}

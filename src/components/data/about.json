@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "img": "assets/svg/Bandage.svg",
+        "title": "Nice and comfortable plaster",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales tempus purus, eget mattis odio suscipit at."
+    },
+    {
+        "id": 2,
+        "img": "assets/svg/Shield.svg",
+        "title": "Prevention of serious injuries",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales tempus purus, eget mattis odio suscipit at."
+    },
+    {
+        "id": 3,
+        "img": "assets/svg/Bacteria.svg",
+        "title": "Safe and anti-bacterial",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales tempus purus, eget mattis odio suscipit at."
+    }
+]
